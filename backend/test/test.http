@@ -1,0 +1,16 @@
+### Crear
+
+POST http://localhost:8800/login HTTP/1.1
+content-type: application/json
+
+{
+            "user": "euge",
+            "email": "eugenionoche3@gmail.com"
+            
+            
+}
+
+### GET
+
+GET http://localhost:8800/users HTTP/1.1
+content-type: application/json
